@@ -18,3 +18,6 @@ docs/source-audit/raw/
 # Contains the original site's Google Maps embed API key (copied from its public
 # HTML during the audit). Kept locally so the key is not published in the repo.
 docs/source-audit/content/_shared-components.md
+
+.vercel
+.env*

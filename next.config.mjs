@@ -7,6 +7,17 @@ const nextConfig = {
   // The original WordPress URLs all end in a slash; keep them identical.
   trailingSlash: true,
 
+  // Pre-sized images and logos change rarely: let browsers keep them for a week
+  // (and reuse a stale copy for a day while revalidating) instead of re-checking
+  // on every visit.
+  async headers() {
+    const cache = [{ key: 'Cache-Control', value: 'public, max-age=604800, stale-while-revalidate=86400' }];
+    return [
+      { source: '/images/:path*', headers: cache },
+      { source: '/:logo(logo|logo-cream).svg', headers: cache },
+    ];
+  },
+
   // Route decisions from docs/source-audit/02a-route-inventory.csv and
   // 09-phase-2-recommendations.md §2.
   async redirects() {
