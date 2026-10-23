@@ -1,0 +1,82 @@
+url,status,type,title,modified,recommendation
+https://lumeriayoga.com/,200,Main nav,Space to Shine,2026-09-29,Implement
+https://lumeriayoga.com/accommodation/,200,Main nav,Accommodation,2025-12-29,Implement
+https://lumeriayoga.com/accommodation/king-bungalow/,200,Main nav (submenu),King Bungalow,2024-02-26,Implement
+https://lumeriayoga.com/accommodation/loft-bungalow/,200,Main nav (submenu),Loft Bungalow,2024-02-26,Implement
+https://lumeriayoga.com/acupuncture/,200,Main nav (submenu),Acupuncture,2025-03-10,Implement
+https://lumeriayoga.com/events/,200,Main nav,Events,2026-09-29,Implement
+https://lumeriayoga.com/healing-spa/,200,Main nav (submenu),Healing Spa,2025-07-07,Implement
+https://lumeriayoga.com/healing/,200,Main nav,Healing – Main,2025-03-03,Implement
+https://lumeriayoga.com/host-your-retreat/,200,Main nav,Host Your Retreat,2026-08-01,Implement
+https://lumeriayoga.com/private-healing/,200,Main nav (submenu),Private Healing,2026-09-01,Implement
+https://lumeriayoga.com/sauna-detox/,200,Main nav,Sauna Detox,2024-12-18,Implement
+https://lumeriayoga.com/yoga/,200,Main nav,Yoga,2026-09-29,Implement
+https://lumeriayoga.com/agni-ceremony/,200,Event detail – upcoming (26 Oct 2026),Full Moon Ceremony,2026-09-28,Implement as event detail (data-driven)
+https://lumeriayoga.com/canang-sari-workshop/,200,Event detail – weekly recurring (in nav “Weekly Events”),Canang Sari Workshop,2026-03-10,Implement as event detail (data-driven)
+https://lumeriayoga.com/shamanic-breathwork/,200,"Event detail – listed as upcoming (20 Oct 2026, already past on audit date 21 Oct 2026)",Shamanic Breathwork: Awaken Your Inner Shaman,2026-09-29,Implement as event detail (data-driven)
+https://lumeriayoga.com/traditional-basket-weaving-bali/,200,Event detail – weekly recurring (in nav “Weekly Events”),Basket Weaving Workshop,2026-03-10,Implement as event detail (data-driven)
+https://lumeriayoga.com/acupuncture-appointment/,200,Booking/enquiry form,Acupuncture Appointment,2026-08-01,Implement
+https://lumeriayoga.com/craniosacral-therapy-training-register/,200,Booking/registration form (past training),Craniosacral Therapy Training Register Page,2024-07-18,Review / legacy
+https://lumeriayoga.com/healing-appointment/,200,Booking/enquiry form,Healing Appointment,2026-08-01,Implement
+https://lumeriayoga.com/healing-spa-appointment/,200,Booking/enquiry form,Healing Spa Appointment,2026-08-01,Implement
+https://lumeriayoga.com/host-your-retreat-thank-you/,200,Utility – form confirmation,Host Your Retreat thank you,2026-01-07,Implement
+https://lumeriayoga.com/private-healing-waiver-agreement/,200,Utility – legal/waiver (not linked from nav),Private Healing Waiver Agreement,2024-02-20,Review / legacy
+https://lumeriayoga.com/yoga-healing-retreat-registration/,200,Booking – package payment links (past retreat),Bali Yoga & Healing Retreat Registration,2025-06-27,Review / legacy
+https://lumeriayoga.com/acupressure-workshop/,200,Event detail – past event,Acupressure Self-Healing Workshop with Eric,2025-11-14,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/acupuncture-healing/,200,Event detail – past event,Discover Acupuncture: Heal in Community,2025-10-14,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/amerta-sound-healing-feb24/,200,Event detail – past event,Amerta Sounditation Workshop,2024-02-22,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/amerta-sound-healing/,200,Event detail – past event,Amerta Sound Healing Workshop – March 2024,2024-02-22,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/art-of-somatics-soundhealing/,200,Event detail – past event,The Art of Somatics: Asana & Womb Movement with Sound Healing,2026-09-14,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/biomagnets-soundhealing-workshop/,200,Event detail – past event,Digestive & Emotional Reset: Biomagnets & Sound Healing Experience,2026-03-10,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/breathwork-workshop/,200,Event detail – past event,Breathwork Healing Workshop,2025-03-25,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/charity-puppy-yoga/,200,Event detail – past event,Charity Puppy Yoga 2024,2024-06-11,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/craniosacral-therapy-training-feb-2024/,200,Event detail – past event,CranioSacral Therapy Training Bali – Feb 2024,2024-03-07,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/craniosacral-therapy-training-june-2024/,200,Event detail – past event,CranioSacral Therapy Training Bali – June 2024,2024-07-18,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/craniosacral-therapy-training/,200,Event detail – past event,CranioSacral Therapy Training Bali,2024-08-28,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/craniosacral-therapy-workshop-december/,200,Event detail – past event,Healing with CranioSacral Therapy – Workshop December,2024-01-16,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/craniosacral-therapy-workshop-january/,200,Event detail – past event,Healing with CranioSacral Therapy – Workshop January,2024-05-20,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/craniosacral-therapy-workshop-november/,200,Event detail – past event,Healing with CranioSacral Therapy – Workshop November,2023-12-05,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/craniosacral-therapy-workshop/,200,Event detail – past event,Healing with CranioSacral Therapy – September 2024,2024-08-29,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/dreamscapes-breathwork-soundhealing/,200,Event detail – past event,Dreamscapes Ceremony: Blue Lotus Breathwork + Reiki + Sound Healing,2026-09-14,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/full-moon-ceremony/,200,Event detail – past event,Full Moon Ceremony,2025-11-26,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/gong-workshop/,200,Event detail – past event,The Yoga of Sound – Gong Workshop,2023-12-07,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/handstand-workshop/,200,Event detail – past event,Handstand Workshop – June 2024,2024-05-29,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/healing-workshop/,200,Event detail – past event,Healing Purification Workshop,2026-07-24,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/heart-songs-cacao/,200,Event detail – past event,Heart Songs and Cacao with Mōllie Mendōɀa & Harmony Sunshine – 13th April 2024,2024-03-14,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/kirtan-with-friends/,200,Event detail – past event,Kirtan & Sound Healing with Eric & Friends – 24th September 2025,2025-09-12,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/mantras-kirtan/,200,Event detail – past event,Healing Mantras,2025-12-24,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/nervous-system-reset/,200,Event detail – past event,"Nervous System Reset: Yin Yoga, Biomagnetism, Sound Bath & Tea Ritual",2026-03-10,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/new-moon-ceremony/,200,Event detail – past event,New Moon Ceremony,2026-08-24,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/reflect-and-renew/,200,Event detail – past event,Reflect & Renew: New Year’s Day Retreat with Adam,2025-12-23,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/selflove-ceremony/,200,Event detail – past event,Self Love Ceremony,2026-02-04,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/soft-slow-safe/,200,Event detail – past event,"SOFT, SLOW & SAFE: A One-Day Nervous System Healing Retreat with Adam",2025-10-31,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/somatic-voice-activation/,200,Event detail – past event,"Somatic Voice Activation: Voice, Movement & Sound Healing Ceremony",2026-08-24,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/somatic-workshop/,200,Event detail – past event,AWILD Somatics,2025-12-26,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/spa-yoga-retreat-bali/,200,Event detail – past event,Half-Day Spa Yoga Retreat,2026-03-23,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/the-art-of-sound-healing/,200,Event detail – past event,The Art of Sound Healing,2023-10-09,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/the-yoga-of-sound-gong-workshop/,200,Event detail – past event,The Yoga of Sound – Gong Workshop,2023-12-07,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/vocal-activation/,200,Event detail – past event,Vocal Activation,2026-01-20,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/womens-circle/,200,Event detail – past event,Women’s Circle with Marlia Coeur,2026-01-20,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/yin-reiki-soundhealing-workshop/,200,Event detail – past event,"Roots & Resonance: A Yin Yoga Immersion with Storytelling, Reiki & Sound Medicine",2026-03-10,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/yin-soundhealing-workshop/,200,Event detail – past event,"Deep Energetic Reset: Yin Yoga, Biomagnetism & Sound Healing",2026-02-26,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/yoga-healing-retreat/,200,Event detail – past event,Bali Yoga & Healing Retreat with Eric Leto,2025-06-27,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/yoga-nidra-masterclass/,200,Event detail – past event,Yoga Nidra Masterclass – June 2024,2024-05-28,"Archive: keep as past-event data, optional detail route; redirect if dropped"
+https://lumeriayoga.com/?liquid-footer=main-footer,200,Theme template post (footer) exposed in sitemap,,,Do not implement (legacy)
+https://lumeriayoga.com/?liquid-header=main-header,200,Theme template post (header) exposed in sitemap,,,Do not implement (legacy)
+https://lumeriayoga.com/?page_id=111,200,Empty blog archive (duplicate of /blog/),,,Do not implement (legacy)
+https://lumeriayoga.com/about/,404,Probe (not linked) – 404,,,None (probe only)
+https://lumeriayoga.com/blog/,200,Empty archive (“Nothing Found”),,,Do not implement unless client wants a blog
+https://lumeriayoga.com/cart/,404,Probe (not linked) – 404,,,None (probe only)
+https://lumeriayoga.com/contact/,200,Theme demo placeholder (lorem/“Neve Yoga Studio”) – NOT real content,Contact,2023-09-25,Rebuild with real contact info (footer data)
+https://lumeriayoga.com/feed/,200,RSS feed (empty – no posts),,,Do not implement
+https://lumeriayoga.com/in-house-retreat/,200,Legacy offer page (says “Coming Soon”; older prices than /accommodation/),In House Retreat,2023-09-25,Consolidate into /accommodation/
+https://lumeriayoga.com/portfolio/healing/,200,Empty theme portfolio item,,,Do not implement (legacy)
+https://lumeriayoga.com/portfolio/in-house-retreat/,200,Empty theme portfolio item,,,Do not implement (legacy)
+https://lumeriayoga.com/portfolio/trainings/,200,Empty theme portfolio item (target of /trainings/ redirect),,,Do not implement (legacy)
+https://lumeriayoga.com/portfolio/yoga/,200,Empty theme portfolio item,,,Do not implement (legacy)
+https://lumeriayoga.com/portfolios/,200,Theme portfolio archive (leftover),,,Do not implement (legacy)
+https://lumeriayoga.com/shop/,404,Probe (not linked) – 404,,,None (probe only)
+https://lumeriayoga.com/this-should-404/,404,Probe (not linked) – 404,,,None (probe only)
+https://lumeriayoga.com/trainings/,200 (301→/portfolio/trainings/),Redirect – linked from Home/Healing “Trainings” card; lands on empty page,,,Review – point card to /yoga-school/ or remove
+https://lumeriayoga.com/yoga-open-house/,200,Past event (Sept 2023),Lumeria Yoga Open House,2023-09-25,Do not implement (legacy)
+https://lumeriayoga.com/yoga-school/,200,NEW page (YTT 2027) – not linked from nav/footer; appears to be in preparation,Lumeria Yoga School,2026-09-28,Ask client – implement if launching

@@ -1,0 +1,156 @@
+.introCols {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-5) var(--space-7);
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-7) clamp(2rem, 6vw, 6rem);
+  align-items: start;
+}
+
+.feature {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.feature h2 {
+  font-size: var(--fs-h3);
+}
+
+.featureMedia {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: var(--space-2);
+}
+
+.feature:first-child .featureMedia {
+  aspect-ratio: 4 / 4.4;
+  border-radius: var(--arch);
+}
+
+.feature:last-child {
+  margin-top: clamp(0rem, 8vw, 8rem);
+}
+
+@media (max-width: 760px) {
+  .introCols,
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .feature:last-child {
+    margin-top: 0;
+  }
+
+  .feature:first-child .featureMedia {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+.head {
+  display: grid;
+  gap: var(--space-3);
+  max-width: 44rem;
+  margin-bottom: var(--space-6);
+}
+
+.included {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: var(--space-5) var(--space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.included li {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.included span {
+  color: var(--olive);
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
+
+.includedMedia {
+  aspect-ratio: 1;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .included {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .included {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.optionsHeading {
+  margin-bottom: var(--space-6);
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-7) clamp(2rem, 4vw, 4rem);
+}
+
+.option {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+  gap: var(--space-4);
+}
+
+.optionMedia {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: var(--space-2);
+}
+
+@media (max-width: 760px) {
+  .options {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Horizontal photo strip that scrolls inside its own box on small screens. */
+.gallery {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(16rem, 1fr);
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0 var(--gutter);
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+}
+
+.gallery li {
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius);
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    grid-auto-columns: 72%;
+  }
+}

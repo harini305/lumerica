@@ -1,0 +1,213 @@
+.footer {
+  padding-block: var(--space-6) var(--space-4);
+  font-size: var(--fs-small);
+  line-height: 1.6;
+}
+
+.newsletter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4) var(--space-6);
+  padding-bottom: var(--space-6);
+  border-bottom: 1px solid rgba(249, 242, 232, 0.2);
+}
+
+.newsletter h2 {
+  font-size: var(--fs-h3);
+}
+
+.newsletter p {
+  margin-top: var(--space-1);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1.3fr 1fr;
+  gap: var(--space-5) var(--space-7);
+  padding-block: var(--space-6);
+  border-bottom: 1px solid rgba(249, 242, 232, 0.2);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+}
+
+.brand img {
+  flex: none;
+  width: 5.5rem;
+  height: auto;
+}
+
+.brand p {
+  max-width: 16rem;
+}
+
+.contact {
+  display: grid;
+  gap: var(--space-2);
+  align-content: start;
+  font-style: normal;
+}
+
+.contact a {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: var(--on-olive);
+  text-decoration: none;
+  width: fit-content;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.contact svg {
+  flex: none;
+  width: 1.15rem;
+  height: 1.15rem;
+  margin-top: 0.2rem;
+  color: var(--gold);
+}
+
+.links ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, max-content));
+  gap: 0.2rem 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links a {
+  color: var(--on-olive);
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.base {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-6);
+  padding-top: var(--space-4);
+}
+
+.socials {
+  display: flex;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.socials a {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid rgba(249, 242, 232, 0.3);
+  border-radius: 50%;
+  color: var(--on-olive);
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.socials a:hover {
+  border-color: var(--gold);
+  background: rgba(249, 242, 232, 0.08);
+}
+
+.top {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  margin-left: auto;
+  padding: 0 0.25rem;
+  border: 0;
+  background: none;
+  color: var(--on-olive);
+  cursor: pointer;
+}
+
+.top:hover {
+  color: var(--gold);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer {
+    padding-top: var(--space-5);
+  }
+
+  .newsletter {
+    padding-bottom: var(--space-5);
+  }
+
+  .newsletter p {
+    font-size: 0.875rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    padding-block: var(--space-5);
+  }
+
+  /* The header already carries the logo; on phones the footer leads with contact details. */
+  .brand {
+    display: none;
+  }
+
+  .links ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.25rem;
+  }
+
+  .base {
+    gap: var(--space-3) var(--space-4);
+    padding-top: var(--space-3);
+  }
+
+  .socials a {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  /* Icon-only on phones so it shares the row; the label stays for screen readers. */
+  .topLabel {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  .top {
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    min-height: 0;
+    padding: 0;
+    border: 1px solid rgba(249, 242, 232, 0.3);
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,389 @@
+.jump {
+  padding-top: var(--space-6);
+}
+
+.jump ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-5);
+  margin: 0;
+  padding: 0 0 var(--space-4);
+  list-style: none;
+  border-bottom: 1px solid var(--line);
+}
+
+.jump a {
+  display: inline-block;
+  padding-block: 0.4rem;
+  color: var(--ink);
+  font-size: var(--fs-small);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.jump a:hover {
+  color: var(--olive);
+}
+
+.promise {
+  display: grid;
+  grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
+  gap: var(--space-5) var(--space-8);
+  align-items: start;
+}
+
+.promise h2 {
+  font-size: var(--fs-h3);
+}
+
+.promise ul {
+  display: grid;
+  gap: var(--space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.promise li {
+  padding-left: var(--space-5);
+  border-left: 1px solid var(--gold);
+  color: var(--olive);
+  font-family: var(--font-heading);
+  font-size: clamp(1.15rem, 1.02rem + 0.5vw, 1.4rem);
+  line-height: 1.45;
+}
+
+@media (max-width: 800px) {
+  .promise {
+    grid-template-columns: 1fr;
+  }
+}
+
+.timetableHead {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: var(--space-4) var(--space-7);
+  align-items: end;
+  margin-bottom: var(--space-6);
+}
+
+.timetableHead p {
+  max-width: 44rem;
+}
+
+.timetableBody {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 19rem);
+  gap: var(--space-6);
+  align-items: start;
+}
+
+/* Momence caps its own width (~800px); the board is sized to match. */
+.board {
+  min-width: 0;
+  max-width: 54rem;
+  padding: clamp(0.5rem, 0.2rem + 1.2vw, 1.5rem);
+  background: var(--white);
+  border-radius: var(--radius);
+}
+
+.rulesAside {
+  position: sticky;
+  top: calc(var(--header-h) + 1.5rem);
+  display: grid;
+  gap: var(--space-4);
+}
+
+.rulesHeading {
+  font-size: var(--fs-h4);
+}
+
+.rules {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.rules > div {
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--line-strong);
+}
+
+.rules dt {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.rules dd {
+  margin: 0.2rem 0 0;
+  font-size: var(--fs-small);
+}
+
+.passes {
+  font-size: var(--fs-small);
+}
+
+@media (max-width: 1060px) {
+  .timetableBody {
+    grid-template-columns: 1fr;
+  }
+
+  .board {
+    max-width: none;
+  }
+
+  .rulesAside {
+    position: static;
+  }
+
+  .rules {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-4) var(--space-5);
+  }
+}
+
+@media (max-width: 860px) {
+  .timetableHead {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .rules {
+    grid-template-columns: 1fr;
+  }
+}
+
+.quote {
+  position: relative;
+  display: grid;
+  min-height: clamp(18rem, 12rem + 20vw, 30rem);
+  margin: 0;
+  overflow: hidden;
+  color: var(--white);
+}
+
+.quoteMedia {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.quoteMedia::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(40, 44, 33, 0.72), rgba(40, 44, 33, 0.25));
+}
+
+.quote blockquote {
+  position: relative;
+  align-self: center;
+  margin-block: var(--space-6);
+}
+
+.quote p {
+  max-width: 22ch;
+  font-family: var(--font-heading);
+  font-size: var(--fs-h2);
+  line-height: 1.25;
+  color: var(--white);
+}
+
+.head {
+  display: grid;
+  gap: var(--space-3);
+  max-width: 44rem;
+  margin-bottom: var(--space-6);
+}
+
+.classes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: var(--space-7);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.class {
+  border-bottom: 1px solid var(--line);
+}
+
+.class h3 {
+  font-size: 1.3rem;
+}
+
+.class > h3,
+.class summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: 3.75rem;
+  padding-block: var(--space-3);
+}
+
+.class > h3 {
+  color: var(--olive);
+}
+
+.class summary:hover h3 {
+  color: var(--olive-deep);
+}
+
+.plus {
+  position: relative;
+  flex: none;
+  width: 1rem;
+  height: 1rem;
+}
+
+.plus::before,
+.plus::after {
+  content: '';
+  position: absolute;
+  inset: 50% 0 auto;
+  height: 1px;
+  background: var(--olive);
+  transition: transform 0.3s var(--ease-out);
+}
+
+.plus::after {
+  transform: rotate(90deg);
+}
+
+details[open] .plus::after {
+  transform: rotate(0deg);
+}
+
+.class p {
+  padding-bottom: var(--space-5);
+  max-width: var(--measure);
+}
+
+@media (max-width: 760px) {
+  .classes {
+    grid-template-columns: 1fr;
+  }
+}
+
+.rates {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rates th,
+.rates td {
+  padding: var(--space-4) var(--space-4) var(--space-4) 0;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: baseline;
+}
+
+.rates thead th {
+  padding-top: 0;
+  color: var(--olive);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-bottom-color: var(--line-strong);
+}
+
+.rates tbody th {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.terms {
+  max-width: 60rem;
+  margin-top: var(--space-5);
+}
+
+@media (max-width: 680px) {
+  .rates thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .rates tr {
+    display: grid;
+    padding-block: var(--space-4);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .rates th,
+  .rates td {
+    display: grid;
+    grid-template-columns: 9.5rem minmax(0, 1fr);
+    gap: var(--space-3);
+    padding: 0.2rem 0;
+    border: 0;
+  }
+
+  .rates tbody th {
+    display: block;
+    margin-bottom: var(--space-2);
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--olive);
+  }
+
+  .rates td::before {
+    content: attr(data-label);
+    font-size: var(--fs-small);
+  }
+}
+
+.teachers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15.5rem), 1fr));
+  gap: var(--space-7) var(--space-5);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.teacher {
+  display: grid;
+  align-content: start;
+  gap: var(--space-2);
+}
+
+.portrait {
+  aspect-ratio: 4 / 5;
+  margin-bottom: var(--space-3);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--sand);
+}
+
+.teacher h3 {
+  font-size: 1.35rem;
+}
+
+.styles {
+  font-size: var(--fs-small);
+}
+
+.bio summary {
+  display: inline-block;
+  margin-top: var(--space-2);
+  color: var(--olive);
+  font-size: var(--fs-small);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+}
+
+.bio p {
+  margin-top: var(--space-3);
+  font-size: var(--fs-small);
+}

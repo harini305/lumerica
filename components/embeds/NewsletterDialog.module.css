@@ -1,0 +1,61 @@
+.dialog {
+  width: min(34rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 2rem);
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--cream);
+  color: var(--text);
+}
+
+.dialog::backdrop {
+  background: rgba(40, 44, 33, 0.55);
+}
+
+.inner {
+  position: relative;
+  display: grid;
+  gap: var(--space-3);
+  padding: clamp(1.25rem, 1rem + 1.5vw, 2rem);
+}
+
+.inner h2 {
+  padding-right: 2.5rem;
+  font-size: var(--fs-h3);
+}
+
+/* The dialog lives inside the olive footer; restore light-surface colours. */
+.dialog .inner h2,
+.dialog .inner a {
+  color: var(--olive);
+}
+
+.dialog .inner :focus-visible {
+  outline-color: var(--olive);
+}
+
+/* Height is a floor; GoHighLevel's embed script resizes it to fit the form. */
+.frame {
+  width: 100%;
+  min-height: 360px;
+  border: 0;
+  background: transparent;
+}
+
+.fallback {
+  font-size: var(--fs-small);
+}
+
+.close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 0;
+  background: none;
+  color: var(--olive);
+  cursor: pointer;
+}

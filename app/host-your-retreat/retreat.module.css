@@ -1,0 +1,41 @@
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: var(--space-8);
+  align-items: start;
+}
+
+.text {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.photos img {
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius);
+}
+
+.form {
+  min-width: 0;
+  padding: clamp(1rem, 0.5rem + 2vw, 2rem);
+  background: var(--white);
+  border-radius: var(--radius);
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .photos {
+    display: none;
+  }
+}

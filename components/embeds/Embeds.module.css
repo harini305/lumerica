@@ -1,0 +1,53 @@
+.formWrap {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.formHost {
+  min-width: 0;
+}
+
+/* The Spanda embed ships its own typeface; keep the site to its two families. */
+.formHost :global(*) {
+  font-family: var(--font-body) !important;
+}
+
+.formHost :global(:is(h1, h2, h3, h4, h5, h6)) {
+  font-family: var(--font-heading) !important;
+  font-weight: 400 !important;
+}
+
+.formHost:empty {
+  display: none;
+}
+
+.status {
+  padding: var(--space-5);
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--white);
+  font-size: var(--fs-small);
+}
+
+.fallback {
+  font-size: var(--fs-small);
+}
+
+.momence {
+  position: relative;
+  min-width: 0;
+}
+
+/* Collapsed until the widget has rendered, so there is never an empty box. */
+.momenceFrame {
+  display: block;
+  width: 100%;
+  height: 0;
+  border: 0;
+  background: transparent;
+}
+
+.momenceNote {
+  padding-block: var(--space-4);
+  font-size: var(--fs-small);
+}

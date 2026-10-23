@@ -1,0 +1,56 @@
+.visionGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: var(--space-6) clamp(2rem, 6vw, 6rem);
+  align-items: center;
+}
+
+.visionMedia {
+  aspect-ratio: 4 / 5;
+  max-height: 40rem;
+}
+
+.visionText {
+  display: grid;
+  gap: var(--space-5);
+  max-width: 34rem;
+}
+
+.statement {
+  color: var(--olive);
+  font-family: var(--font-heading);
+  font-size: clamp(1.35rem, 1.1rem + 1vw, 1.95rem);
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .visionGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .visionMedia {
+    aspect-ratio: 16 / 10;
+  }
+}
+
+.offerHeading {
+  max-width: 22ch;
+  margin-bottom: var(--space-6);
+}
+
+.events {
+  padding-top: 0;
+}
+
+.eventsHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.reviewsHeading {
+  font-size: var(--fs-h3);
+}

@@ -1,0 +1,20 @@
+node_modules/
+.next/
+out/
+.vercel/
+*.log
+.env*.local
+.DS_Store
+Thumbs.db
+
+# Phase 1 evidence kept locally only (about 150 MB): crawled HTML, screenshots
+# and the original downloaded assets. The audit reports, route inventory and
+# extracted page text in docs/source-audit/ are committed. Regenerating
+# public/images (npm run images) needs docs/source-audit/assets locally.
+docs/source-audit/assets/
+docs/source-audit/screenshots/
+docs/source-audit/raw/
+
+# Contains the original site's Google Maps embed API key (copied from its public
+# HTML during the audit). Kept locally so the key is not published in the repo.
+docs/source-audit/content/_shared-components.md

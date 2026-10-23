@@ -1,0 +1,24 @@
+.cell {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.9rem;
+}
+
+.price {
+  color: var(--ink);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: var(--fs-small);
+  white-space: nowrap;
+}
+
+.note {
+  font-size: var(--fs-small);
+}

@@ -1,0 +1,460 @@
+/* Lumeria design tokens and base styles.
+   Two font families only: Marcellus (headings) and Jost (everything else),
+   loaded in app/layout.js through next/font and exposed as CSS variables. */
+
+:root {
+  /* Brand palette (docs/source-audit/05-brand-reference.md) */
+  --olive: #5c6847;
+  --olive-deep: #48523a;
+  --gold: #eac86a;
+  --cream: #f9f2e8;
+  --sand: #efe5d8;
+  --text: #606060;
+  --ink: #3f4236;
+  --white: #fffdf9;
+  --line: rgba(92, 104, 71, 0.22);
+  --line-strong: rgba(92, 104, 71, 0.45);
+  --on-olive: #f9f2e8;
+  --on-olive-soft: rgba(249, 242, 232, 0.78);
+
+  --font-heading: var(--font-marcellus), 'Times New Roman', serif;
+  --font-body: var(--font-jost), system-ui, sans-serif;
+
+  /* Type scale */
+  --fs-display: clamp(2.35rem, 1.55rem + 3.1vw, 4.1rem);
+  --fs-h1: clamp(2.1rem, 1.55rem + 2.2vw, 3.4rem);
+  --fs-h2: clamp(1.7rem, 1.35rem + 1.45vw, 2.55rem);
+  --fs-h3: clamp(1.3rem, 1.17rem + 0.55vw, 1.6rem);
+  --fs-h4: 1.15rem;
+  --fs-lead: clamp(1.1rem, 1.04rem + 0.3vw, 1.25rem);
+  --fs-body: 1.0625rem;
+  --fs-small: 0.9375rem;
+  --fs-label: 0.8125rem;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 2.5rem;
+  --space-8: 3.25rem;
+  --section: clamp(2.25rem, 1.75rem + 2vw, 3.75rem);
+  --section-tight: clamp(1.5rem, 1.2rem + 1.2vw, 2.5rem);
+
+  /* Layout */
+  --gutter: clamp(1rem, 0.4rem + 3vw, 3rem);
+  --max: 76rem;
+  --max-narrow: 46rem;
+  --measure: 62ch;
+  --header-h: 4.5rem;
+  --radius: 4px;
+  --arch: 999px 999px 0 0 / 50% 50% 0 0;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--header-h) + 1rem);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  font-weight: 400;
+  line-height: 1.7;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Form controls do not inherit the page font by default; keep them on Jost. */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img,
+svg,
+video,
+iframe {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--olive);
+  font-family: var(--font-heading);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.005em;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  line-height: 1.08;
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+  line-height: 1.25;
+}
+
+h4,
+h5,
+h6 {
+  font-size: var(--fs-h4);
+  line-height: 1.3;
+}
+
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote {
+  margin: 0;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+a {
+  color: var(--olive);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  color: var(--olive-deep);
+}
+
+strong {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--olive);
+  outline-offset: 3px;
+}
+
+.on-dark :focus-visible,
+.on-dark:focus-visible {
+  outline-color: var(--gold);
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--ink);
+}
+
+html.menu-open {
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------------------- layout */
+
+.container {
+  width: 100%;
+  max-width: calc(var(--max) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.container-narrow {
+  width: 100%;
+  max-width: calc(var(--max-narrow) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.section {
+  padding-block: var(--section);
+}
+
+.section-tight {
+  padding-block: var(--section-tight);
+}
+
+/* Two neighbouring sections on the page background would otherwise stack both
+   paddings; the second one starts closer instead. */
+:is(.section, .section-tight):not(.bg-sand, .bg-white, .bg-olive) + :is(.section, .section-tight):not(.bg-sand, .bg-white, .bg-olive) {
+  padding-top: 0;
+}
+
+.bg-sand {
+  background: var(--sand);
+}
+
+.bg-white {
+  background: var(--white);
+}
+
+.bg-olive {
+  background: var(--olive);
+  color: var(--on-olive-soft);
+}
+
+.bg-olive h1,
+.bg-olive h2,
+.bg-olive h3,
+.bg-olive h4 {
+  color: var(--on-olive);
+}
+
+.bg-olive a {
+  color: var(--on-olive);
+}
+
+/* Flow spacing for runs of prose */
+.prose > * + * {
+  margin-top: 1em;
+}
+
+.prose > :is(h2, h3, h4) {
+  margin-top: 1.6em;
+}
+
+.prose > :is(h2, h3, h4) + * {
+  margin-top: 0.6em;
+}
+
+.prose ul {
+  padding-left: 1.1em;
+}
+
+.prose li + li {
+  margin-top: 0.35em;
+}
+
+.prose li::marker {
+  color: var(--olive);
+}
+
+.measure {
+  max-width: var(--measure);
+}
+
+.lead {
+  font-size: var(--fs-lead);
+  line-height: 1.65;
+  color: var(--ink);
+}
+
+.small {
+  font-size: var(--fs-small);
+}
+
+/* Small uppercase text, used only for genuine labels (table heads, form labels, nav). */
+.label {
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--space-4);
+  top: -100px;
+  z-index: 100;
+  padding: var(--space-3) var(--space-4);
+  background: var(--olive);
+  color: var(--on-olive);
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: var(--space-4);
+}
+
+/* ---------------------------------------------------------------- buttons */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6em;
+  min-height: 3rem;
+  padding: 0.7rem 1.5rem;
+  border: 1px solid var(--olive);
+  border-radius: var(--radius);
+  background: var(--olive);
+  color: var(--on-olive);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 0.25s var(--ease-out),
+    color 0.25s var(--ease-out),
+    border-color 0.25s var(--ease-out);
+}
+
+.btn:hover {
+  background: var(--olive-deep);
+  border-color: var(--olive-deep);
+  color: var(--on-olive);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--olive);
+}
+
+.btn-ghost:hover {
+  background: var(--olive);
+  color: var(--on-olive);
+}
+
+.bg-olive .btn,
+.btn-light {
+  background: var(--cream);
+  border-color: var(--cream);
+  color: var(--olive-deep);
+}
+
+.bg-olive .btn:hover,
+.btn-light:hover {
+  background: var(--white);
+  border-color: var(--white);
+  color: var(--olive-deep);
+}
+
+.bg-olive .btn-ghost {
+  background: transparent;
+  border-color: var(--on-olive-soft);
+  color: var(--on-olive);
+}
+
+.bg-olive .btn-ghost:hover {
+  background: var(--cream);
+  color: var(--olive-deep);
+}
+
+.btn svg {
+  width: 1em;
+  height: 1em;
+  flex: none;
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+/* Text link with an arrow, for secondary navigation inside content. */
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid var(--line-strong);
+  padding-bottom: 0.1em;
+  transition: border-color 0.2s;
+}
+
+.text-link:hover {
+  border-color: currentColor;
+}
+
+/* ---------------------------------------------------------------- media */
+
+.arch {
+  border-radius: var(--arch);
+  overflow: hidden;
+}
+
+.frame {
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------------------------------------------------------------- disclosure */
+
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Anything that must not depend on animation: GSAP only sets inline styles. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+html[data-dismissed] [data-announcement] {
+  display: none;
+}
+
+main:focus {
+  outline: none;
+}

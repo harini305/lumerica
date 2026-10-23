@@ -1,0 +1,330 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  /* Solid, not backdrop-filter: a filter would become the containing block of
+     the position: fixed mobile drawer and clip it. */
+  background: var(--cream);
+  border-bottom: 1px solid var(--line);
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  height: var(--header-h);
+}
+
+.logo {
+  flex: none;
+  display: block;
+  padding-block: 0.4rem;
+}
+
+.logo img {
+  width: auto;
+  height: 2.9rem;
+}
+
+.nav {
+  margin-inline: auto;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.75rem, 1.6vw, 1.75rem);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.link,
+.contact {
+  position: relative;
+  display: block;
+  padding-block: 0.6rem;
+  color: var(--ink);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.link::after,
+.contact::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.25rem;
+  height: 1px;
+  background: var(--olive);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s var(--ease-out);
+}
+
+.link:hover,
+.contact:hover {
+  color: var(--olive);
+}
+
+.link:hover::after,
+.link[data-active]::after,
+.contact:hover::after,
+.contact[aria-current='page']::after {
+  transform: scaleX(1);
+}
+
+.link[data-active],
+.contact[aria-current='page'] {
+  color: var(--olive);
+}
+
+.subToggle {
+  display: grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 2rem;
+  margin-left: 0.1rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--olive);
+  cursor: pointer;
+}
+
+.subToggle svg {
+  transition: transform 0.25s var(--ease-out);
+}
+
+.item[data-sub-open] .subToggle svg {
+  transform: rotate(180deg);
+}
+
+.sub {
+  position: absolute;
+  top: 100%;
+  left: -1.25rem;
+  min-width: 15rem;
+  margin: 0;
+  padding: 0.6rem 0;
+  list-style: none;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 18px 40px -24px rgba(63, 66, 54, 0.45);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition:
+    opacity 0.2s,
+    transform 0.2s var(--ease-out),
+    visibility 0s 0.2s;
+}
+
+/* Bridge the gap between the link and the panel so hover is not lost. */
+.sub::before {
+  content: '';
+  position: absolute;
+  inset: -0.75rem 0 auto;
+  height: 0.75rem;
+}
+
+.item[data-sub-open] .sub,
+.item:focus-within .sub {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition-delay: 0s;
+}
+
+@media (hover: hover) {
+  .item:hover .sub {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition-delay: 0s;
+  }
+}
+
+.sub a {
+  display: block;
+  padding: 0.55rem 1.25rem;
+  color: var(--ink);
+  font-size: 0.975rem;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.sub a:hover,
+.sub a[aria-current='page'] {
+  background: var(--cream);
+  color: var(--olive);
+}
+
+.note {
+  display: block;
+  margin-top: 0.1rem;
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  flex: none;
+}
+
+.cta {
+  min-height: 2.6rem;
+  padding: 0.5rem 1.1rem;
+  font-size: 0.875rem;
+}
+
+.menuToggle {
+  display: none;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.75rem;
+  padding: 0.4rem 0.2rem 0.4rem 0.6rem;
+  border: 0;
+  background: none;
+  color: var(--olive);
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.drawer {
+  display: none;
+}
+
+@media (max-width: 1140px) {
+  .nav,
+  .contact {
+    display: none;
+  }
+
+  .actions {
+    margin-left: auto;
+    gap: var(--space-3);
+  }
+
+  .menuToggle {
+    display: inline-flex;
+  }
+
+  .drawer:not([hidden]) {
+    display: block;
+    position: fixed;
+    inset: var(--drawer-top, var(--header-h)) 0 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background: var(--cream);
+    border-top: 1px solid var(--line);
+  }
+}
+
+@media (max-width: 560px) {
+  .actions .cta {
+    display: none;
+  }
+
+  .logo img {
+    height: 2.5rem;
+  }
+}
+
+.drawerInner {
+  padding-block: var(--space-4) var(--space-7);
+}
+
+.drawerInner > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mItem {
+  border-bottom: 1px solid var(--line);
+}
+
+.mRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mRow a {
+  flex: 1;
+  padding-block: 0.9rem;
+  color: var(--olive);
+  font-family: var(--font-heading);
+  font-size: 1.45rem;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.mRow a[aria-current='page'] {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+}
+
+.mRow button {
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  background: none;
+  color: var(--olive);
+  cursor: pointer;
+}
+
+.mRow button svg {
+  transition: transform 0.25s var(--ease-out);
+}
+
+.mRow button[aria-expanded='true'] svg {
+  transform: rotate(180deg);
+}
+
+.mSub {
+  margin: 0;
+  padding: 0 0 0.8rem 0.9rem;
+  list-style: none;
+  border-left: 1px solid var(--line-strong);
+  margin-bottom: 0.9rem;
+}
+
+.mSub a {
+  display: block;
+  padding: 0.5rem 0;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.mSub a[aria-current='page'] {
+  color: var(--olive);
+  font-weight: 500;
+}
+
+.mCta {
+  width: 100%;
+  margin-top: var(--space-6);
+}

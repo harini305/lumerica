@@ -1,0 +1,2035 @@
+{
+ "avrilnathaniell-00162-copy": {
+  "w": 1000,
+  "h": 1500,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/avrilnathaniell-00162-copy-960.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00190-copy": {
+  "w": 1500,
+  "h": 1000,
+  "srcs": [
+   {
+    "w": 1500,
+    "src": "/images/avrilnathaniell-00190-copy-1500.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00206-1": {
+  "w": 1024,
+  "h": 683,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/avrilnathaniell-00206-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/avrilnathaniell-00206-1-960.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00257-copy": {
+  "w": 1000,
+  "h": 1500,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/avrilnathaniell-00257-copy-960.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00302": {
+  "w": 1520,
+  "h": 800,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/avrilnathaniell-00302-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/avrilnathaniell-00302-960.webp"
+   },
+   {
+    "w": 1520,
+    "src": "/images/avrilnathaniell-00302-1520.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00378": {
+  "w": 1520,
+  "h": 800,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/avrilnathaniell-00378-960.webp"
+   },
+   {
+    "w": 1520,
+    "src": "/images/avrilnathaniell-00378-1520.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00622": {
+  "w": 2000,
+  "h": 1333,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/avrilnathaniell-00622-1600.webp"
+   },
+   {
+    "w": 2000,
+    "src": "/images/avrilnathaniell-00622-2000.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00647": {
+  "w": 1000,
+  "h": 1500,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/avrilnathaniell-00647-960.webp"
+   }
+  ]
+ },
+ "galih-00031": {
+  "w": 1250,
+  "h": 833,
+  "srcs": [
+   {
+    "w": 1250,
+    "src": "/images/galih-00031-1250.webp"
+   }
+  ]
+ },
+ "galih-00079": {
+  "w": 650,
+  "h": 975,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/galih-00079-480.webp"
+   }
+  ]
+ },
+ "galih-00151": {
+  "w": 650,
+  "h": 975,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/galih-00151-480.webp"
+   }
+  ]
+ },
+ "abz": {
+  "w": 750,
+  "h": 750,
+  "srcs": [
+   {
+    "w": 750,
+    "src": "/images/abz-750.webp"
+   }
+  ]
+ },
+ "acupuncture": {
+  "w": 2048,
+  "h": 1366,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/acupuncture-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/acupuncture-2048.webp"
+   }
+  ]
+ },
+ "acupuncture-appointment": {
+  "w": 1687,
+  "h": 1126,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/acupuncture-appointment-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/acupuncture-appointment-960.webp"
+   }
+  ]
+ },
+ "acupunture-2-hero": {
+  "w": 2048,
+  "h": 1106,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/acupunture-2-hero-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/acupunture-2-hero-2048.webp"
+   }
+  ]
+ },
+ "adam-1": {
+  "w": 1492,
+  "h": 1492,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/adam-1-960.webp"
+   },
+   {
+    "w": 1492,
+    "src": "/images/adam-1-1492.webp"
+   }
+  ]
+ },
+ "adam-2": {
+  "w": 1396,
+  "h": 1700,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/adam-2-960.webp"
+   },
+   {
+    "w": 1396,
+    "src": "/images/adam-2-1396.webp"
+   }
+  ]
+ },
+ "adam-3": {
+  "w": 1396,
+  "h": 1492,
+  "srcs": [
+   {
+    "w": 1396,
+    "src": "/images/adam-3-1396.webp"
+   }
+  ]
+ },
+ "adam-4": {
+  "w": 2000,
+  "h": 1000,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/adam-4-1600.webp"
+   },
+   {
+    "w": 2000,
+    "src": "/images/adam-4-2000.webp"
+   }
+  ]
+ },
+ "adam-private": {
+  "w": 1192,
+  "h": 994,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/adam-private-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/adam-private-960.webp"
+   },
+   {
+    "w": 1192,
+    "src": "/images/adam-private-1192.webp"
+   }
+  ]
+ },
+ "adam": {
+  "w": 1038,
+  "h": 1418,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/adam-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/adam-960.webp"
+   }
+  ]
+ },
+ "adama-and-elli-2": {
+  "w": 582,
+  "h": 613,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/adama-and-elli-2-480.webp"
+   }
+  ]
+ },
+ "adriana": {
+  "w": 1200,
+  "h": 1800,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/adriana-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "/images/adriana-1200.webp"
+   }
+  ]
+ },
+ "agustian": {
+  "w": 1200,
+  "h": 1800,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/agustian-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "/images/agustian-1200.webp"
+   }
+  ]
+ },
+ "avl01196-1-1-1": {
+  "w": 1188,
+  "h": 771,
+  "srcs": [
+   {
+    "w": 1188,
+    "src": "/images/avl01196-1-1-1-1188.webp"
+   }
+  ]
+ },
+ "avl01196-1-e1739218659965": {
+  "w": 2048,
+  "h": 1859,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/avl01196-1-e1739218659965-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/avl01196-1-e1739218659965-1600.webp"
+   }
+  ]
+ },
+ "avl01236-1-e1741599956960": {
+  "w": 1168,
+  "h": 857,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/avl01236-1-e1741599956960-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/avl01236-1-e1741599956960-960.webp"
+   },
+   {
+    "w": 1168,
+    "src": "/images/avl01236-1-e1741599956960-1168.webp"
+   }
+  ]
+ },
+ "avl01239-2": {
+  "w": 1520,
+  "h": 800,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/avl01239-2-960.webp"
+   },
+   {
+    "w": 1520,
+    "src": "/images/avl01239-2-1520.webp"
+   }
+  ]
+ },
+ "avl01248-2": {
+  "w": 2048,
+  "h": 1859,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/avl01248-2-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/avl01248-2-1600.webp"
+   }
+  ]
+ },
+ "avl01299-1-e1745201558858": {
+  "w": 1168,
+  "h": 972,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/avl01299-1-e1745201558858-960.webp"
+   },
+   {
+    "w": 1168,
+    "src": "/images/avl01299-1-e1745201558858-1168.webp"
+   }
+  ]
+ },
+ "avl01301-1": {
+  "w": 1520,
+  "h": 800,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/avl01301-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/avl01301-1-960.webp"
+   },
+   {
+    "w": 1520,
+    "src": "/images/avl01301-1-1520.webp"
+   }
+  ]
+ },
+ "avl01301-e1738921293417": {
+  "w": 2048,
+  "h": 1410,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/avl01301-e1738921293417-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/avl01301-e1738921293417-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/avl01301-e1738921293417-1600.webp"
+   }
+  ]
+ },
+ "avl01322-2": {
+  "w": 2048,
+  "h": 1314,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/avl01322-2-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/avl01322-2-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/avl01322-2-1600.webp"
+   }
+  ]
+ },
+ "avl01675-1-1": {
+  "w": 683,
+  "h": 1024,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/avl01675-1-1-480.webp"
+   },
+   {
+    "w": 683,
+    "src": "/images/avl01675-1-1-683.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00006-2": {
+  "w": 667,
+  "h": 1000,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/avrilnathaniell-00006-2-480.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00027": {
+  "w": 2048,
+  "h": 1365,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/avrilnathaniell-00027-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/avrilnathaniell-00027-2048.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00078": {
+  "w": 1520,
+  "h": 800,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/avrilnathaniell-00078-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/avrilnathaniell-00078-960.webp"
+   },
+   {
+    "w": 1520,
+    "src": "/images/avrilnathaniell-00078-1520.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00107-rotated": {
+  "w": 1000,
+  "h": 667,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/avrilnathaniell-00107-rotated-960.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00162-1-2": {
+  "w": 667,
+  "h": 1000,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/avrilnathaniell-00162-1-2-480.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00205-1-e1719475159792": {
+  "w": 2048,
+  "h": 1365,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/avrilnathaniell-00205-1-e1719475159792-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/avrilnathaniell-00205-1-e1719475159792-1600.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00223-1": {
+  "w": 1520,
+  "h": 800,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/avrilnathaniell-00223-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/avrilnathaniell-00223-1-960.webp"
+   },
+   {
+    "w": 1520,
+    "src": "/images/avrilnathaniell-00223-1-1520.webp"
+   }
+  ]
+ },
+ "avrilnathaniell-00229": {
+  "w": 1520,
+  "h": 800,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/avrilnathaniell-00229-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/avrilnathaniell-00229-960.webp"
+   },
+   {
+    "w": 1520,
+    "src": "/images/avrilnathaniell-00229-1520.webp"
+   }
+  ]
+ },
+ "awild-somatic-hero": {
+  "w": 2000,
+  "h": 1000,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/awild-somatic-hero-1600.webp"
+   },
+   {
+    "w": 2000,
+    "src": "/images/awild-somatic-hero-2000.webp"
+   }
+  ]
+ },
+ "bali-rice-field": {
+  "w": 750,
+  "h": 500,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/bali-rice-field-480.webp"
+   },
+   {
+    "w": 750,
+    "src": "/images/bali-rice-field-750.webp"
+   }
+  ]
+ },
+ "bali-temple": {
+  "w": 1000,
+  "h": 667,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/bali-temple-960.webp"
+   }
+  ]
+ },
+ "bela-portrait-683x1024-1": {
+  "w": 683,
+  "h": 1024,
+  "srcs": [
+   {
+    "w": 683,
+    "src": "/images/bela-portrait-683x1024-1-683.webp"
+   }
+  ]
+ },
+ "biomagnetic": {
+  "w": 659,
+  "h": 702,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/biomagnetic-480.webp"
+   }
+  ]
+ },
+ "capture": {
+  "w": 1009,
+  "h": 446,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/capture-960.webp"
+   }
+  ]
+ },
+ "cirlce": {
+  "w": 1414,
+  "h": 1622,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/cirlce-960.webp"
+   },
+   {
+    "w": 1414,
+    "src": "/images/cirlce-1414.webp"
+   }
+  ]
+ },
+ "constanza-square": {
+  "w": 1200,
+  "h": 1200,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/constanza-square-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/constanza-square-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "/images/constanza-square-1200.webp"
+   }
+  ]
+ },
+ "contansza-hero-pic": {
+  "w": 1008,
+  "h": 499,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/contansza-hero-pic-960.webp"
+   }
+  ]
+ },
+ "diah-1": {
+  "w": 1000,
+  "h": 1000,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/diah-1-960.webp"
+   }
+  ]
+ },
+ "diah2": {
+  "w": 750,
+  "h": 1000,
+  "srcs": [
+   {
+    "w": 750,
+    "src": "/images/diah2-750.webp"
+   }
+  ]
+ },
+ "dominika-square2": {
+  "w": 1220,
+  "h": 1220,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/dominika-square2-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/dominika-square2-960.webp"
+   },
+   {
+    "w": 1220,
+    "src": "/images/dominika-square2-1220.webp"
+   }
+  ]
+ },
+ "dreamscapre-cover-2": {
+  "w": 564,
+  "h": 846,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/dreamscapre-cover-2-480.webp"
+   }
+  ]
+ },
+ "dsc07532": {
+  "w": 2000,
+  "h": 1334,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/dsc07532-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/dsc07532-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/dsc07532-1600.webp"
+   },
+   {
+    "w": 2000,
+    "src": "/images/dsc07532-2000.webp"
+   }
+  ]
+ },
+ "dsc07549": {
+  "w": 2000,
+  "h": 1334,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/dsc07549-1600.webp"
+   },
+   {
+    "w": 2000,
+    "src": "/images/dsc07549-2000.webp"
+   }
+  ]
+ },
+ "dsc07591": {
+  "w": 1900,
+  "h": 1267,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/dsc07591-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/dsc07591-960.webp"
+   }
+  ]
+ },
+ "dsc07600": {
+  "w": 2000,
+  "h": 1334,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/dsc07600-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/dsc07600-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/dsc07600-1600.webp"
+   }
+  ]
+ },
+ "dscf6409-copy": {
+  "w": 1536,
+  "h": 2304,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/dscf6409-copy-960.webp"
+   },
+   {
+    "w": 1536,
+    "src": "/images/dscf6409-copy-1536.webp"
+   }
+  ]
+ },
+ "dscf6418": {
+  "w": 1536,
+  "h": 2304,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/dscf6418-960.webp"
+   },
+   {
+    "w": 1536,
+    "src": "/images/dscf6418-1536.webp"
+   }
+  ]
+ },
+ "dscf9864-copy": {
+  "w": 2048,
+  "h": 1509,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/dscf9864-copy-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/dscf9864-copy-2048.webp"
+   }
+  ]
+ },
+ "emil-only-1": {
+  "w": 867,
+  "h": 1280,
+  "srcs": [
+   {
+    "w": 867,
+    "src": "/images/emil-only-1-867.webp"
+   }
+  ]
+ },
+ "emil-only": {
+  "w": 1280,
+  "h": 853,
+  "srcs": [
+   {
+    "w": 1280,
+    "src": "/images/emil-only-1280.webp"
+   }
+  ]
+ },
+ "eric": {
+  "w": 1066,
+  "h": 1600,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/eric-960.webp"
+   }
+  ]
+ },
+ "eric-kirtan": {
+  "w": 1536,
+  "h": 2048,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/eric-kirtan-960.webp"
+   },
+   {
+    "w": 1536,
+    "src": "/images/eric-kirtan-1536.webp"
+   }
+  ]
+ },
+ "eric1": {
+  "w": 1066,
+  "h": 1600,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/eric1-960.webp"
+   }
+  ]
+ },
+ "event-banner": {
+  "w": 2048,
+  "h": 1106,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/event-banner-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/event-banner-2048.webp"
+   }
+  ]
+ },
+ "half-day-spa-yoga-julia-and-adam": {
+  "w": 659,
+  "h": 702,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/half-day-spa-yoga-julia-and-adam-480.webp"
+   }
+  ]
+ },
+ "hannah-1": {
+  "w": 946,
+  "h": 1080,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/hannah-1-480.webp"
+   },
+   {
+    "w": 946,
+    "src": "/images/hannah-1-946.webp"
+   }
+  ]
+ },
+ "healing-amerta": {
+  "w": 933,
+  "h": 642,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/healing-amerta-480.webp"
+   },
+   {
+    "w": 933,
+    "src": "/images/healing-amerta-933.webp"
+   }
+  ]
+ },
+ "healings-home": {
+  "w": 1000,
+  "h": 667,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/healings-home-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/healings-home-960.webp"
+   }
+  ]
+ },
+ "home-page-lumeria-maria-abz-01360": {
+  "w": 1000,
+  "h": 668,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/home-page-lumeria-maria-abz-01360-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/home-page-lumeria-maria-abz-01360-960.webp"
+   }
+  ]
+ },
+ "hot-sauna-lumeria": {
+  "w": 415,
+  "h": 415,
+  "srcs": [
+   {
+    "w": 415,
+    "src": "/images/hot-sauna-lumeria-415.webp"
+   }
+  ]
+ },
+ "img-20220516-wa0021": {
+  "w": 1600,
+  "h": 1066,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/img-20220516-wa0021-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/img-20220516-wa0021-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/img-20220516-wa0021-1600.webp"
+   }
+  ],
+  "alt": "Yoga"
+ },
+ "img-20221010-wa0035-transformed": {
+  "w": 2048,
+  "h": 1241,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/img-20221010-wa0035-transformed-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/img-20221010-wa0035-transformed-1600.webp"
+   }
+  ]
+ },
+ "img-20221208-wa0035": {
+  "w": 1600,
+  "h": 721,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/img-20221208-wa0035-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/img-20221208-wa0035-1600.webp"
+   }
+  ]
+ },
+ "in-house-retreat-1": {
+  "w": 933,
+  "h": 642,
+  "srcs": [
+   {
+    "w": 933,
+    "src": "/images/in-house-retreat-1-933.webp"
+   }
+  ]
+ },
+ "in-house-retreat-2": {
+  "w": 933,
+  "h": 642,
+  "srcs": [
+   {
+    "w": 933,
+    "src": "/images/in-house-retreat-2-933.webp"
+   }
+  ]
+ },
+ "in-house-retreat-accommodation-1": {
+  "w": 933,
+  "h": 642,
+  "srcs": [
+   {
+    "w": 933,
+    "src": "/images/in-house-retreat-accommodation-1-933.webp"
+   }
+  ]
+ },
+ "in-house-retreat-accommodation-2": {
+  "w": 933,
+  "h": 642,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/in-house-retreat-accommodation-2-480.webp"
+   },
+   {
+    "w": 933,
+    "src": "/images/in-house-retreat-accommodation-2-933.webp"
+   }
+  ]
+ },
+ "in-house-retreat-header": {
+  "w": 2048,
+  "h": 765,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/in-house-retreat-header-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/in-house-retreat-header-2048.webp"
+   }
+  ]
+ },
+ "in-house-retreat-included-1": {
+  "w": 498,
+  "h": 498,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/in-house-retreat-included-1-480.webp"
+   }
+  ]
+ },
+ "in-house-retreat-included-2": {
+  "w": 498,
+  "h": 498,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/in-house-retreat-included-2-480.webp"
+   }
+  ]
+ },
+ "in-house-retreat-included-4": {
+  "w": 498,
+  "h": 498,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/in-house-retreat-included-4-480.webp"
+   }
+  ]
+ },
+ "in-house-retreat-included-5": {
+  "w": 498,
+  "h": 498,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/in-house-retreat-included-5-480.webp"
+   }
+  ]
+ },
+ "in-house-retreat-included-6": {
+  "w": 498,
+  "h": 498,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/in-house-retreat-included-6-480.webp"
+   }
+  ]
+ },
+ "in-house-retreat": {
+  "w": 1000,
+  "h": 667,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/in-house-retreat-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/in-house-retreat-960.webp"
+   }
+  ]
+ },
+ "julia-1": {
+  "w": 1220,
+  "h": 1460,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/julia-1-960.webp"
+   },
+   {
+    "w": 1220,
+    "src": "/images/julia-1-1220.webp"
+   }
+  ]
+ },
+ "julia": {
+  "w": 1520,
+  "h": 800,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/julia-960.webp"
+   },
+   {
+    "w": 1520,
+    "src": "/images/julia-1520.webp"
+   }
+  ]
+ },
+ "julia-2": {
+  "w": 1210,
+  "h": 1760,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/julia-2-960.webp"
+   },
+   {
+    "w": 1210,
+    "src": "/images/julia-2-1210.webp"
+   }
+  ]
+ },
+ "julia-3": {
+  "w": 1238,
+  "h": 1526,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/julia-3-960.webp"
+   },
+   {
+    "w": 1238,
+    "src": "/images/julia-3-1238.webp"
+   }
+  ]
+ },
+ "julia-art-of-somatics": {
+  "w": 668,
+  "h": 743,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/julia-art-of-somatics-480.webp"
+   }
+  ]
+ },
+ "julia-somatic-voice-activation": {
+  "w": 664,
+  "h": 732,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/julia-somatic-voice-activation-480.webp"
+   }
+  ]
+ },
+ "kirtan-event": {
+  "w": 1800,
+  "h": 1200,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/kirtan-event-1600.webp"
+   }
+  ]
+ },
+ "learn-from-the-worlds-leading-experts": {
+  "w": 950,
+  "h": 1330,
+  "srcs": [
+   {
+    "w": 950,
+    "src": "/images/learn-from-the-worlds-leading-experts-950.webp"
+   }
+  ],
+  "alt": "Dr. John E. Upledger, Founder of Craniosacral Therapy"
+ },
+ "loft-bungalow-lumeria-19": {
+  "w": 1024,
+  "h": 683,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/loft-bungalow-lumeria-19-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/loft-bungalow-lumeria-19-960.webp"
+   }
+  ]
+ },
+ "lumeria-food": {
+  "w": 1076,
+  "h": 1076,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-food-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-food-960.webp"
+   }
+  ]
+ },
+ "lumeria-maria-abz-01376": {
+  "w": 1000,
+  "h": 668,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/lumeria-maria-abz-01376-960.webp"
+   }
+  ]
+ },
+ "lumeria-maria-abz-01485": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-maria-abz-01485-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-maria-abz-01485-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-maria-abz-01485-1600.webp"
+   }
+  ]
+ },
+ "lumeria-maria-abz-01687": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-maria-abz-01687-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-maria-abz-01687-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-maria-abz-01687-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/lumeria-maria-abz-01687-2048.webp"
+   }
+  ]
+ },
+ "lumeria-maria-abz-01360": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/lumeria-maria-abz-01360-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-maria-abz-01360-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/lumeria-maria-abz-01360-2048.webp"
+   }
+  ]
+ },
+ "lumeria-maria-abz-01392": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-maria-abz-01392-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-maria-abz-01392-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-maria-abz-01392-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/lumeria-maria-abz-01392-2048.webp"
+   }
+  ]
+ },
+ "lumeria-maria-abz-01521-1": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-maria-abz-01521-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-maria-abz-01521-1-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-maria-abz-01521-1-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/lumeria-maria-abz-01521-1-2048.webp"
+   }
+  ]
+ },
+ "lumeria-maria-abz-01624": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-maria-abz-01624-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-maria-abz-01624-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-maria-abz-01624-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/lumeria-maria-abz-01624-2048.webp"
+   }
+  ]
+ },
+ "lumeria-maria-abz-01705": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-maria-abz-01705-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-maria-abz-01705-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-maria-abz-01705-1600.webp"
+   }
+  ]
+ },
+ "lumeria-maria-abz-01770": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-maria-abz-01770-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-maria-abz-01770-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-maria-abz-01770-1600.webp"
+   }
+  ]
+ },
+ "lumeria-maria-abz-01784": {
+  "w": 1520,
+  "h": 800,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-maria-abz-01784-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-maria-abz-01784-960.webp"
+   },
+   {
+    "w": 1520,
+    "src": "/images/lumeria-maria-abz-01784-1520.webp"
+   }
+  ]
+ },
+ "lumeria-soft-opening-01875": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/lumeria-soft-opening-01875-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/lumeria-soft-opening-01875-2048.webp"
+   }
+  ]
+ },
+ "lumeria-soft-opening-02371-2": {
+  "w": 1764,
+  "h": 2048,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/lumeria-soft-opening-02371-2-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-soft-opening-02371-2-1600.webp"
+   }
+  ]
+ },
+ "lumeria-soft-opening-02405": {
+  "w": 1000,
+  "h": 668,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/lumeria-soft-opening-02405-960.webp"
+   }
+  ]
+ },
+ "lumeria-soft-opening-02437-1": {
+  "w": 1520,
+  "h": 800,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/lumeria-soft-opening-02437-1-960.webp"
+   },
+   {
+    "w": 1520,
+    "src": "/images/lumeria-soft-opening-02437-1-1520.webp"
+   }
+  ]
+ },
+ "lumeria-soft-opening-02563": {
+  "w": 1024,
+  "h": 684,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-soft-opening-02563-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-soft-opening-02563-960.webp"
+   }
+  ]
+ },
+ "lumeria-soft-opening-02620": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-soft-opening-02620-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-soft-opening-02620-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-soft-opening-02620-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/lumeria-soft-opening-02620-2048.webp"
+   }
+  ]
+ },
+ "lumeria-soft-opening-02647": {
+  "w": 1520,
+  "h": 800,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-soft-opening-02647-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-soft-opening-02647-960.webp"
+   },
+   {
+    "w": 1520,
+    "src": "/images/lumeria-soft-opening-02647-1520.webp"
+   }
+  ]
+ },
+ "lumeria-soft-opening-03220": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-soft-opening-03220-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-soft-opening-03220-960.webp"
+   }
+  ]
+ },
+ "lumeria-soft-opening-03231": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-soft-opening-03231-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-soft-opening-03231-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-soft-opening-03231-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/lumeria-soft-opening-03231-2048.webp"
+   }
+  ]
+ },
+ "lumeria-soft-opening-03240-1": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-soft-opening-03240-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-soft-opening-03240-1-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-soft-opening-03240-1-1600.webp"
+   }
+  ]
+ },
+ "lumeria-soft-opening-03265": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/lumeria-soft-opening-03265-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/lumeria-soft-opening-03265-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/lumeria-soft-opening-03265-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/lumeria-soft-opening-03265-2048.webp"
+   }
+  ]
+ },
+ "lumeria-soft-opening-03346": {
+  "w": 2048,
+  "h": 1368,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/lumeria-soft-opening-03346-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/lumeria-soft-opening-03346-2048.webp"
+   }
+  ]
+ },
+ "lumeria-yoga-deep-energetic-reset-ig-story-size-e1768912864345": {
+  "w": 1080,
+  "h": 1510,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/lumeria-yoga-deep-energetic-reset-ig-story-size-e1768912864345-960.webp"
+   }
+  ]
+ },
+ "nalya": {
+  "w": 1200,
+  "h": 1800,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/nalya-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "/images/nalya-1200.webp"
+   }
+  ]
+ },
+ "nervous-system-reset-adam-and-constanza": {
+  "w": 656,
+  "h": 701,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/nervous-system-reset-adam-and-constanza-480.webp"
+   }
+  ]
+ },
+ "new-moon": {
+  "w": 521,
+  "h": 811,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/new-moon-480.webp"
+   }
+  ]
+ },
+ "nina-square2": {
+  "w": 1238,
+  "h": 1238,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/nina-square2-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/nina-square2-960.webp"
+   },
+   {
+    "w": 1238,
+    "src": "/images/nina-square2-1238.webp"
+   }
+  ]
+ },
+ "oleksandr": {
+  "w": 750,
+  "h": 750,
+  "srcs": [
+   {
+    "w": 750,
+    "src": "/images/oleksandr-750.webp"
+   }
+  ]
+ },
+ "photo-from-lumeria-bali-e1743660556144": {
+  "w": 1365,
+  "h": 1460,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/photo-from-lumeria-bali-e1743660556144-960.webp"
+   },
+   {
+    "w": 1365,
+    "src": "/images/photo-from-lumeria-bali-e1743660556144-1365.webp"
+   }
+  ]
+ },
+ "photo-from-lumeria-bali": {
+  "w": 1365,
+  "h": 2048,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/photo-from-lumeria-bali-960.webp"
+   },
+   {
+    "w": 1365,
+    "src": "/images/photo-from-lumeria-bali-1365.webp"
+   }
+  ]
+ },
+ "photo-from-lumeria-yoga-bali-1": {
+  "w": 1600,
+  "h": 1066,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/photo-from-lumeria-yoga-bali-1-1600.webp"
+   }
+  ]
+ },
+ "photo-from-lumeria-yoga-bali": {
+  "w": 1600,
+  "h": 1066,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/photo-from-lumeria-yoga-bali-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/photo-from-lumeria-yoga-bali-1600.webp"
+   }
+  ]
+ },
+ "puppy-yoga-lumeria-yoga-events-a4-size-poster-1-1": {
+  "w": 1414,
+  "h": 938,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/puppy-yoga-lumeria-yoga-events-a4-size-poster-1-1-960.webp"
+   },
+   {
+    "w": 1414,
+    "src": "/images/puppy-yoga-lumeria-yoga-events-a4-size-poster-1-1-1414.webp"
+   }
+  ]
+ },
+ "roots-with-julia-e1772172231311": {
+  "w": 581,
+  "h": 655,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/roots-with-julia-e1772172231311-480.webp"
+   }
+  ]
+ },
+ "sasha": {
+  "w": 400,
+  "h": 400,
+  "srcs": [
+   {
+    "w": 400,
+    "src": "/images/sasha-400.webp"
+   }
+  ]
+ },
+ "single-bungalow-breakfast": {
+  "w": 933,
+  "h": 642,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/single-bungalow-breakfast-480.webp"
+   },
+   {
+    "w": 933,
+    "src": "/images/single-bungalow-breakfast-933.webp"
+   }
+  ]
+ },
+ "single-bungalow-detox": {
+  "w": 933,
+  "h": 642,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/single-bungalow-detox-480.webp"
+   },
+   {
+    "w": 933,
+    "src": "/images/single-bungalow-detox-933.webp"
+   }
+  ]
+ },
+ "single-bungalow-header": {
+  "w": 2048,
+  "h": 765,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/single-bungalow-header-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/single-bungalow-header-2048.webp"
+   }
+  ]
+ },
+ "single-bungalow-yoga": {
+  "w": 933,
+  "h": 642,
+  "srcs": [
+   {
+    "w": 480,
+    "src": "/images/single-bungalow-yoga-480.webp"
+   },
+   {
+    "w": 933,
+    "src": "/images/single-bungalow-yoga-933.webp"
+   }
+  ]
+ },
+ "single-bungalow": {
+  "w": 933,
+  "h": 642,
+  "srcs": [
+   {
+    "w": 933,
+    "src": "/images/single-bungalow-933.webp"
+   }
+  ]
+ },
+ "sound-2": {
+  "w": 1080,
+  "h": 1080,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/sound-2-960.webp"
+   }
+  ]
+ },
+ "temple-sound-1": {
+  "w": 686,
+  "h": 855,
+  "srcs": [
+   {
+    "w": 686,
+    "src": "/images/temple-sound-1-686.webp"
+   }
+  ]
+ },
+ "untitled-design-1": {
+  "w": 1366,
+  "h": 768,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/untitled-design-1-960.webp"
+   },
+   {
+    "w": 1366,
+    "src": "/images/untitled-design-1-1366.webp"
+   }
+  ]
+ },
+ "untitled-design-3": {
+  "w": 1414,
+  "h": 2000,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/untitled-design-3-960.webp"
+   },
+   {
+    "w": 1414,
+    "src": "/images/untitled-design-3-1414.webp"
+   }
+  ]
+ },
+ "untitled-design-5-1": {
+  "w": 2000,
+  "h": 1000,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/untitled-design-5-1-1600.webp"
+   },
+   {
+    "w": 2000,
+    "src": "/images/untitled-design-5-1-2000.webp"
+   }
+  ]
+ },
+ "untitled-design": {
+  "w": 1366,
+  "h": 768,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/untitled-design-960.webp"
+   },
+   {
+    "w": 1366,
+    "src": "/images/untitled-design-1366.webp"
+   }
+  ]
+ },
+ "vocal-act-compressed-hero": {
+  "w": 2048,
+  "h": 962,
+  "srcs": [
+   {
+    "w": 1600,
+    "src": "/images/vocal-act-compressed-hero-1600.webp"
+   },
+   {
+    "w": 2048,
+    "src": "/images/vocal-act-compressed-hero-2048.webp"
+   }
+  ]
+ },
+ "voice-2": {
+  "w": 1080,
+  "h": 1080,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/voice-2-960.webp"
+   }
+  ]
+ },
+ "voice-2a": {
+  "w": 1080,
+  "h": 1350,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/voice-2a-960.webp"
+   }
+  ]
+ },
+ "voice-4": {
+  "w": 1080,
+  "h": 1080,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/voice-4-960.webp"
+   }
+  ]
+ },
+ "web-cover": {
+  "w": 1020,
+  "h": 352,
+  "srcs": [
+   {
+    "w": 960,
+    "src": "/images/web-cover-960.webp"
+   }
+  ]
+ },
+ "womens-circle3": {
+  "w": 1200,
+  "h": 1600,
+  "srcs": [
+   {
+    "w": 1200,
+    "src": "/images/womens-circle3-1200.webp"
+   }
+  ]
+ },
+ "yoga-alliance-rys-200": {
+  "w": 155,
+  "h": 155,
+  "srcs": [
+   {
+    "w": 155,
+    "src": "/images/yoga-alliance-rys-200-155.webp"
+   }
+  ],
+  "alt": "Yoga Alliance Registered Yoga School RYS 200"
+ }
+}
